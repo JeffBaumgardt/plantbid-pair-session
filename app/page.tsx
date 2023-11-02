@@ -1,7 +1,13 @@
+import { Suspense } from "react";
+import { fetchCharacterList } from "@/api/lotr";
+import CardList from "./components/CardList";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello World
+    <main className="flex min-h-screen flex-col p-24">
+      <Suspense fallback={<span>Loading...</span>}>
+        <CardList />
+      </Suspense>
     </main>
   );
 }
