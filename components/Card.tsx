@@ -1,5 +1,4 @@
 import type { Character } from "@/types/lotr";
-import CharacterModal from "./CharacterModal";
 import { Button } from "@/components/ui/button";
 
 export default function Card({

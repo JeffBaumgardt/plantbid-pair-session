@@ -1,5 +1,4 @@
 import type { Character, CharacterQuote } from "@/types/lotr";
-import { useEffect, useState } from "react";
 import {
   Dialog,
   DialogContent,
@@ -10,8 +9,6 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-
-import { getQuotesByID } from "@/api/lotr";
 
 export default function CharacterModal({
   character,

@@ -1,4 +1,4 @@
-import type { Character, CharacterQuote } from "@/types/lotr";
+import type { CharacterQuote } from "@/types/lotr";
 
 const endpoint = "https://the-one-api.dev/v2/";
 

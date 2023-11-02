@@ -1,6 +1,5 @@
 import { Suspense } from "react";
-import { fetchCharacterList } from "@/api/lotr";
-import CardList from "./components/CardList";
+import CardList from "@/components/CardList";
 
 export default function Home() {
   return (
